@@ -31,6 +31,7 @@ background-color: var(--color-body);}
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color-navy-blue-overlay-shadow-heading);
 }
 
 .menu-link:hover,
@@ -50,7 +51,7 @@ color: var(--color-slate-text)}
 
 .button {
 background-color: var(--color-iris-focus-aktiv-link);
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -107,13 +108,8 @@ color: var(--color-navy-blue-overlay-shadow-heading);
 text-transform: uppercase;}
 
   .part-of-word {
-    font-family: 'raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
     color: var(--color-iris-focus-aktiv-link);
-    text-transform: uppercase;}
+  }
 
   
   
@@ -133,13 +129,8 @@ text-transform: uppercase;}
   text-transform: uppercase;}
   
   .part-of-word-foot {
-  font-family: 'raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
   color: var(--color-iris-focus-aktiv-link);
-  text-transform: uppercase;}
+  }
 
   .text-footer {
   font-size: 16px;
@@ -155,7 +146,7 @@ text-transform: uppercase;}
 
   .nav-btn {
   background-color: var(--color-cloud-accent);
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
