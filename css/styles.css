@@ -22,6 +22,7 @@
 
 body {
 font-family: var(--primary-font);
+color: var(--color-navy-blue-overlay-shadow-heading);
 background-color: var(--color-body);}
 
 
@@ -29,35 +30,31 @@ background-color: var(--color-body);}
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  cursor: pointer;
-
-  color: var(--color-navy-blue-overlay-shadow-heading);
+  letter-spacing: 0.02em;
 }
 
 .menu-link:hover,
 .menu-link:focus {
   color: var(--color-ocean-hover-pressed);
-  text-decoration: underline;
 }
 
 .contact-mail-phone  {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-font-style: normal;
+letter-spacing: 0.02em;
 color: var(--color-slate-text)}
 
 .contact-mail-phone:hover,
 .contact-mail-phone:focus {
-  color: var(--color-ocean-hover-pressed);
-  text-decoration: underline;
-}
+  color: var(--color-ocean-hover-pressed);}
 
 .button {
 background-color: var(--color-iris-focus-aktiv-link);
+font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.04em;
 color: var(--color-body);
 cursor: pointer;
 }
@@ -66,59 +63,55 @@ cursor: pointer;
 .button:focus{
 background-color: var(--color-ocean-hover-pressed);
 color: var(--color-body);
-text-decoration: underline;
 }
 
 .hero {background-color: var(--color-navy-blue-overlay-shadow-heading)}
 
 .hero {
-font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
+letter-spacing: 0.02em;
 text-align: center;
 color: var(--color-body)}
 
 
 .second-head {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: left;
-  color: var(--color-navy-blue-overlay-shadow-heading);}
-
-.photo-header:hover,
-.photo-header:focus {text-decoration: underline;}
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;}
 
 
 .photo-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--color-navy-blue-overlay-shadow-heading);
+  letter-spacing: 0.02em;
  }
- .main-text:hover,
- .main-text:focus {text-decoration: underline;}
-
+ 
 .main-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-slate-text)
   }
 
   .logo {
-  font-family: 'raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  color: var(--color-navy-blue-overlay-shadow-heading);
-  text-transform: uppercase;}
+font-family: 'raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+color: var(--color-navy-blue-overlay-shadow-heading);
+text-transform: uppercase;}
 
   .part-of-word {
     font-family: 'raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    letter-spacing: 0.03em;
     color: var(--color-iris-focus-aktiv-link);
     text-transform: uppercase;}
 
@@ -135,6 +128,7 @@ color: var(--color-body)}
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--color-cloud-accent);
   text-transform: uppercase;}
   
@@ -143,26 +137,29 @@ color: var(--color-body)}
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--color-iris-focus-aktiv-link);
   text-transform: uppercase;}
 
   .text-footer {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-cornflower-accent);}
 
   .nav-btn:hover,
   .nav-btn:focus{
   background-color: var(--color-ocean-hover-pressed);
   color: var(--color-body);
-  text-decoration: underline;
   }
 
   .nav-btn {
   background-color: var(--color-cloud-accent);
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--color-iris-focus-aktiv-link);
-  cursor: pointer;}
+  cursor: pointer;
+  }
